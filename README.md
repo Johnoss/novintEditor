@@ -3,6 +3,11 @@
 - Install Twison - an extension that lets you save Twine graph as a .json (https://github.com/lazerwalker/twison)
 # Writing a story
 - Write a story. It should be nice and interesting, but creative value has 0 impact on functionality.
+- Handle links. Links are commonly at the end of a passage
+  - Links are surrounded by [[]]. Text and title are separated by *|* Our example is **[[Jump of the way of the falling piano|piano_jump]]**
+  - *Jump of the way of the falling piano* is what the player sees
+  - *piano_jump* is what the robot sees
+  - Twine will automatically create a new passage/links to an existing passage
 - Handle inventory events by tag **inv** => **inv:2|-3**
   - *2* is an id of an item, defined later
   - *-3* is amount required to access a link/amount of item lost upon reaching the passage
