@@ -1,7 +1,7 @@
-Prerequisites
+# Prerequisites
 1. Download Twine (http://twinery.org/)
 2. Install Twison - an extension that lets you save Twine graph as a .json (https://github.com/lazerwalker/twison)
-Writting a story
+# Writting a story
 1. Write a story
 2. Handle inventory events by tag inv => inv:2|-3
   a) 2 is an id of an item, defined later
@@ -9,7 +9,7 @@ Writting a story
 3. Handle in-story images by tag img => img:awesomness
   a) awesomness is a name of the file (must be jpg or png)
   b) before creating the story archive, image files must be in a the right directory
-Using Novint Editor
+# Using Novint Editor
 1. Upload a .json with the story
 2. Create the items
   a) Name
