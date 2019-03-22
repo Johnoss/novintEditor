@@ -1,0 +1,28 @@
+{
+  "LockedItems": [
+    0
+  ],
+  "Items": [
+    {
+      "ItemId": 0,
+      "Name": "Bookmark",
+      "IconFilename": "S9UGB9I941.png",
+      "IsUnique": true,
+      "BypassesRequirements": true
+    },
+    {
+      "ItemId": 1,
+      "Name": "Dead Cellphone",
+      "IconFilename": "E64CWG2BYQ.png",
+      "IsUnique": false,
+      "BypassesRequirements": false
+    },
+    {
+      "ItemId": 2,
+      "Name": "New Item",
+      "IconFilename": "DA543ZYE6M.png",
+      "IsUnique": false,
+      "BypassesRequirements": false
+    }
+  ]
+}
