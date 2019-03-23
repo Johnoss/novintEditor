@@ -34,6 +34,7 @@
 - If archive file structure is modified outside the editor tool, the archive compiles, but won't work. it's not an achievement to break the system, to rage against the machine, to prevent singularity by breaking the editor, because it's very easy
 - The editor tool will be improved in the future
   - Editing passages directly in the tool
+  - Uploading the whole .nov archive and edit it
   - Validating if all the items used by the story tags has been added
   - Validating if all the images used by the story tags has been added
-  Flushing unused image files upon creating the archive
+  - Flushing unused image files upon creating the archive
