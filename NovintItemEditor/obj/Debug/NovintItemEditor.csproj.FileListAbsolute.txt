@@ -12,3 +12,17 @@ C:\Users\JanHuda\Documents\NovintGeneral\Tools\NovintItemEditor\NovintItemEditor
 C:\Users\JanHuda\Documents\NovintGeneral\Tools\NovintItemEditor\NovintItemEditor\bin\Debug\Newtonsoft.Json.xml
 C:\Users\JanHuda\Documents\NovintGeneral\Tools\NovintItemEditor\NovintItemEditor\obj\Debug\NovintItemEditor.ItemEditorForm.resources
 C:\Users\JanHuda\Documents\NovintGeneral\Tools\NovintItemEditor\NovintItemEditor\obj\Debug\NovintItemEditor.csprojAssemblyReference.cache
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\NovintItemEditor.exe.config
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\NovintItemEditor.exe
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\NovintItemEditor.pdb
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.csprojAssemblyReference.cache
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.ItemEditorForm.resources
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.Properties.Resources.resources
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.csproj.GenerateResource.cache
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.csproj.CoreCompileInputs.cache
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.csproj.CopyComplete
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.exe
+C:\Users\JanHuda\Documents\novintEditor\NovintItemEditor\obj\Debug\NovintItemEditor.pdb

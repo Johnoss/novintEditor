@@ -1,22 +1,18 @@
 {
   "passages": [
     {
-      "text": "You're walking in the woods\nThere's no one around and your phone is dead\nOut of the corner of your eye you spot him:\nShia LaBeouf.\n[[Look back|start_look]]\n[[Ignore him|start_ignore]]",
+      "text": "Disclaimer - This story is heavily inspired by a humorous song by Rob Cantor - Shia LaBeouf Live.\nRather than an enrichment of your cultural life, it serves more as Novint features showcase.\n\n[[Start reading|start]]",
       "links": [
         {
-          "name": "Look back|start_look",
-          "link": "Look back|start_look"
-        },
-        {
-          "name": "Ignore him|start_ignore",
-          "link": "Ignore him|start_ignore"
+          "name": "Start reading|start",
+          "link": "Start reading|start"
         }
       ],
-      "name": "start",
+      "name": "disclamer",
       "pid": "1",
       "position": {
-        "x": "338",
-        "y": "198.5"
+        "x": "156",
+        "y": "173"
       }
     },
     {
@@ -35,7 +31,7 @@
       "pid": "2",
       "position": {
         "x": "337",
-        "y": "337.5"
+        "y": "337"
       }
     },
     {
@@ -50,7 +46,7 @@
       "pid": "3",
       "position": {
         "x": "579",
-        "y": "192.5"
+        "y": "192"
       }
     },
     {
@@ -69,17 +65,20 @@
       "pid": "4",
       "position": {
         "x": "334",
-        "y": "497.5"
+        "y": "497"
       }
     },
     {
-      "text": "Something something -- end",
+      "text": "You wake up by a sublte, regular swinging motion. The whole of your body screams something's wrong. You open your eyes. You are hanging by your legs. You see an upside down smile of Shia LaBeouf as he's creeping towards you with an axe in his hand.\nHe raises the axe.\nYou think: \"No, this can't be the end!\"\nBut it is.\nYou die.\n\nGame Over (Score: 0%)",
       "name": "death_generic",
       "pid": "5",
       "position": {
-        "x": "926",
-        "y": "328.5"
-      }
+        "x": "900",
+        "y": "567"
+      },
+      "tags": [
+        "img:catch"
+      ]
     },
     {
       "text": "You stop and turn around.\n\"What do you want?\", you try to shout confidently, but the fear in your voice betrays you.\nHe says nothing. You can just see his blood-splattered face comes closer. He's holding something heavy in his hands.\nThen all goes black.\n[[Continue|death_generic]]",
@@ -93,7 +92,7 @@
       "pid": "6",
       "position": {
         "x": "608",
-        "y": "351.5"
+        "y": "351"
       }
     },
     {
@@ -108,20 +107,190 @@
       "pid": "7",
       "position": {
         "x": "331",
-        "y": "650.5"
+        "y": "650"
       },
       "tags": [
         "img:running"
       ]
     },
     {
-      "text": "Now it's dark and you seem to have lost him\nbut you're hopelessly lost yourself\nStranded with a murderer\nyou creep silently through the underbrush",
+      "text": "Now it's dark and you seem to have lost him.\nbut you're hopelessly lost yourself.\nStranded with a murderer.\nyou creep silently through the underbrush.\n[[Try to find a vantage point|vantage_point]]\n[[Try to look for a way back|way_back]]",
+      "links": [
+        {
+          "name": "Try to find a vantage point|vantage_point",
+          "link": "Try to find a vantage point|vantage_point"
+        },
+        {
+          "name": "Try to look for a way back|way_back",
+          "link": "Try to look for a way back|way_back"
+        }
+      ],
       "name": "forest",
       "pid": "8",
       "position": {
         "x": "332",
-        "y": "802.5"
+        "y": "802"
+      },
+      "tags": [
+        "img:distance"
+      ]
+    },
+    {
+      "text": "You climb a small slope to have a better overview.\nAha! In the distance\nA small cottage with a light on\n[[Move towards it|bear_trap]]\n[[Try to find your way to the car|way_back]]",
+      "links": [
+        {
+          "name": "Move towards it|bear_trap",
+          "link": "Move towards it|bear_trap"
+        },
+        {
+          "name": "Try to find your way to the car|way_back",
+          "link": "Try to find your way to the car|way_back"
+        }
+      ],
+      "name": "vantage_point",
+      "pid": "9",
+      "position": {
+        "x": "307",
+        "y": "947"
       }
+    },
+    {
+      "text": "You aimlessly walk through the woods, trying to find a way back to your car, but the forest seems to be thicker and thicker.\nSuddenly, you hear a twig snapping behind you.\nYou turn around just to catch a glimplse of Shia LaBeouf swinging something heavy at you.\n[[Continue|death_generic]]",
+      "links": [
+        {
+          "name": "Continue|death_generic",
+          "link": "Continue|death_generic"
+        }
+      ],
+      "name": "way_back",
+      "pid": "10",
+      "position": {
+        "x": "549",
+        "y": "955"
+      }
+    },
+    {
+      "text": "You can see a light from the cottage not far from you.\nHope! You move stealthily toward it\nbut your leg! Ah! It's caught in a bear trap!\n[[Use your phone|trap_phone]]\n[[Shout for help|trap_shout]]\n[[Gnaw your leg off|trap_gnaw]]",
+      "links": [
+        {
+          "name": "Use your phone|trap_phone",
+          "link": "Use your phone|trap_phone"
+        },
+        {
+          "name": "Shout for help|trap_shout",
+          "link": "Shout for help|trap_shout"
+        },
+        {
+          "name": "Gnaw your leg off|trap_gnaw",
+          "link": "Gnaw your leg off|trap_gnaw"
+        }
+      ],
+      "name": "bear_trap",
+      "pid": "11",
+      "position": {
+        "x": "320",
+        "y": "1167"
+      }
+    },
+    {
+      "text": "You power your phone on.\nYou call the cops.\nThey triangulate your position.\nIn an hour or so, you hear a dozen voices and see flickers of as many flashtorches.\nYou are rescued.\nShia LaBeouf escaped.\n\nGame Over (Score: 50%)",
+      "name": "trap_phone",
+      "pid": "12",
+      "position": {
+        "x": "40",
+        "y": "1159"
+      },
+      "tags": [
+        "inv:2|-1"
+      ]
+    },
+    {
+      "text": "You didn't think it was a good idea to begin with, but something made you start shouting.\n\"Help! Help!\"\nIn a minute you can hear steps behind you. Your body is in a awkward posture, it's difficult to turn your head.\nBut when you do, you see Shia LaBeouf with a smug grin on his face and club in his hand.\nThen all goes black\n[[Continue|death_generic]]",
+      "links": [
+        {
+          "name": "Continue|death_generic",
+          "link": "Continue|death_generic"
+        }
+      ],
+      "name": "trap_shout",
+      "pid": "13",
+      "position": {
+        "x": "541",
+        "y": "1159"
+      }
+    },
+    {
+      "text": "Gnawing off your leg (Quiet, quiet)\nLimping to the cottage (Quiet, quiet)\nNow you're on the doorstep\nSitting inside: Shia LaBeouf\n[[Sneak up behind him|cottage_sneak]]\n[[Charge at him|cottage_charge]]\n[[Turn around and try to find your car|way_back]]",
+      "links": [
+        {
+          "name": "Sneak up behind him|cottage_sneak",
+          "link": "Sneak up behind him|cottage_sneak"
+        },
+        {
+          "name": "Charge at him|cottage_charge",
+          "link": "Charge at him|cottage_charge"
+        },
+        {
+          "name": "Turn around and try to find your car|way_back",
+          "link": "Turn around and try to find your car|way_back"
+        }
+      ],
+      "name": "trap_gnaw",
+      "pid": "14",
+      "position": {
+        "x": "341",
+        "y": "1435"
+      }
+    },
+    {
+      "text": "Sharpening an axe (Shia LaBeouf)\nBut he doesn't hear you enter (Shia LaBeouf)\nYou're sneaking up behind him\nStrangling superstar Shia LaBeouf\n\nTo be continued...",
+      "name": "cottage_sneak",
+      "pid": "15",
+      "position": {
+        "x": "344",
+        "y": "1632"
+      },
+      "tags": [
+        "img:cottage"
+      ]
+    },
+    {
+      "text": "You let out a warcry as you charge at Shia LaBeouf, who up until now was blissfully unaware of your presence.\nBy making such a racket you gave him an opportunity to compose himself and prepare for your strike.\nYou notice a swift swing of his arm and some projectile flying towards you. You try to dodge, but it hits you. It barely does any damage, but when you lay your eyes upon it, you see it's a dart. You feel dizzy. Very dizzy.\nYou vision gets blurry.\nThen - all goes black!\n[[Continue|death_generic]]",
+      "links": [
+        {
+          "name": "Continue|death_generic",
+          "link": "Continue|death_generic"
+        }
+      ],
+      "name": "cottage_charge",
+      "pid": "16",
+      "position": {
+        "x": "631",
+        "y": "1425"
+      }
+    },
+    {
+      "text": "You're walking in the woods\nThere's no one around and your phone is dead\nOut of the corner of your eye you spot him:\nShia LaBeouf.\n[[Look back|start_look]]\n[[Ignore him|start_ignore]]",
+      "links": [
+        {
+          "name": "Look back|start_look",
+          "link": "Look back|start_look"
+        },
+        {
+          "name": "Ignore him|start_ignore",
+          "link": "Ignore him|start_ignore"
+        }
+      ],
+      "name": "start",
+      "pid": "17",
+      "position": {
+        "x": "331",
+        "y": "174"
+      },
+      "tags": [
+        "inv:0|3",
+        "inv:1|1"
+      ]
     }
   ],
   "name": "Shia LaBeouf",
